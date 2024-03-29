@@ -1,4 +1,9 @@
-RGB LED
+These are based on the diagram. These are untested.
+
+
+Untested.
+
+RGB LED PWM
 Red = 4
 Blue = 17
 Green = 16
@@ -6,24 +11,24 @@ Green = 16
 Audio 
 AMP = 26
 
-LDR
+ADC
 Photoresistor = 34
 
-LCD
+LCD ST7796 SPI
 sclk = 14
 cs = 15
 rs = 2
 mosi = 13 ???
-miso = 12  (23 maybe)
+miso = 12  (23 is second choice)
 Backlight = 27
 
-TF (from diagram, conflicting info, be cautious)
+TF (from TF diagram, conflicting info on chip, be cautious)
 mosi = 23
 cs = 5
 clk = 18
 miso = 19
 
-CTP? Capacitive touch? As labeled on chip
+GT911 i2c CTP? Capacitive touch? As labeled on chip
 scl = 32
 sda = 33
 rst = 25
