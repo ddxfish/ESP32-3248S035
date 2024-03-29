@@ -1,1 +1,37 @@
+RGB LED
+Red = 4
+Blue = 17
+Green = 16
 
+Audio 
+AMP = 26
+
+LDR
+Photoresistor = 34
+
+LCD
+sclk = 14
+cs = 15
+rs = 2
+mosi = 13 ???
+miso = 12  (23 maybe)
+Backlight = 27
+
+TF (from diagram, conflicting info, be cautious)
+mosi = 23
+cs = 5
+clk = 18
+miso = 19
+
+CTP? Capacitive touch? As labeled on chip
+scl = 32
+sda = 33
+rst = 25
+int = 21
+
+RTP? Resistive touch? as labeled on chip
+sclk = 14
+miso = 12
+mosi = 13
+irq = 36
+cs = 33
